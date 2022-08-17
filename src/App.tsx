@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import './App.css'
 import ResizeComponent from './ResizeComponent'
 import WithResizeUsage from './WithResizeUsage'
+import WithResizeAdvancedUsage from './WithResizeAdvancedUsage'
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
     <>
     {/* <ResizeComponent name="Developer"/> */}
     <WithResizeUsage name="Developer" />
+    <WithResizeAdvancedUsage name="Developer"/>
     </>
   )
 }
