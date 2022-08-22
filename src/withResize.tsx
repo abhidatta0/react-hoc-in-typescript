@@ -11,7 +11,7 @@ const withResize = (Component: FC<any> )=> (props: any)=> {
      window.addEventListener('resize', handleResize);
  
      return ()=>{
-       window.addEventListener('resize', handleResize);
+       window.removeEventListener('resize', handleResize);
      }
     },[]); 
 
